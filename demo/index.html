@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EasyZoom</title>
+    <link rel='stylesheet' href='./main.css'>
+    <link rel='stylesheet' href='./easyzoom.css'>
+</head>
+
+<body>
+    <div class='container'>
+        <div class='easyzoom'>
+            <img src='./images/gakki.png'>
+        </div>
+        <div class='easyzoom'>
+            <img src='./images/gakki.png'>
+        </div>
+    </div>
+    <script src='./jquery-3.2.1.min.js'></script>
+    <script src='./easyzoom.js'></script>
+    <script>
+        $('.easyzoom').easyZoom({
+            width: 300,
+            position: 'right'
+        })
+    </script>
+</body>
+
+</html>
