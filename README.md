@@ -23,7 +23,7 @@
 
 
 
-#### How To Start
+#### Quick start
 
 ---
 
