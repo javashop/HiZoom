@@ -16,7 +16,7 @@
 .easyzoom .small,
 .easyzoom .big {
     position: absolute;
-    border: 1px solid green;
+    border: 1px solid #aaa;
 }
 
 .easyzoom .small {

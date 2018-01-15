@@ -7,25 +7,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>EasyZoom</title>
     <link rel='stylesheet' href='./main.css'>
-    <link rel='stylesheet' href='./easyzoom.css'>
+    <link rel='stylesheet' href='../easyzoom.min.css'>
 </head>
 
 <body>
     <div class='container'>
-        <div class='easyzoom'>
+        <div class='easyzoom easy1'>
             <img src='./images/gakki.png'>
         </div>
-        <div class='easyzoom'>
-            <img src='./images/gakki.png'>
+        <div class='easyzoom easy2'>
+            <img src='./images/ldy.jpeg'>
         </div>
     </div>
     <script src='./jquery-3.2.1.min.js'></script>
-    <script src='./easyzoom.js'></script>
+    <script src='../easyzoom.min.js'></script>
     <script>
-        $('.easyzoom').easyZoom({
+        $('.easy1').easyZoom({
             width: 300,
             position: 'right'
-        })
+        });
+        $('.easy2').easyZoom({
+            width: 400,
+            position: 'left'
+        });
     </script>
 </body>
 
