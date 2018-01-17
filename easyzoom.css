@@ -1,5 +1,6 @@
 .easyzoom {
     position: relative;
+    z-index:10;
 }
 
 .easyzoom .magnifier {
@@ -16,7 +17,7 @@
 .easyzoom .small,
 .easyzoom .big {
     position: absolute;
-    border: 1px solid #aaa;
+    border: 1px solid #ddd;
 }
 
 .easyzoom .small {

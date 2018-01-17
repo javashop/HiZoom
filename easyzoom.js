@@ -98,7 +98,7 @@
                 document.body.scrollLeft || document.documentElement.scrollLeft;
 
             leftDistance = event.clientX - (offset.left - scrollLeft);
-            topDistance = event.clientY - (offset.top - screenTop);
+            topDistance = event.clientY - (offset.top - scrollLeft);
 
             magnifier = $this.find('.magnifier');
             var big = $this.siblings('.big');
