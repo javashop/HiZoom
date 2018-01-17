@@ -290,7 +290,7 @@
         });
     };
 
-    $.fn.easyZoom = function(options) {
+    $.fn.hiZoom = function(options) {
         start($(this), options);
     };
 })(jQuery);

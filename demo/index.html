@@ -5,28 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>EasyZoom</title>
+    <title>HiZoom</title>
     <link rel='stylesheet' href='./main.css'>
-    <link rel='stylesheet' href='../easyzoom.min.css'>
+    <link rel='stylesheet' href='../hizoom.min.css'>
 </head>
 
 <body>
     <div class='container'>
-        <div class='easyzoom easy1'>
+        <div class='hizoom hi1'>
             <img src='./images/gakki.jpg'>
         </div>
-        <div class='easyzoom easy2'>
+        <div class='hizoom hi2'>
             <img src='./images/ldy.jpeg'>
         </div>
     </div>
     <script src='./jquery-3.2.1.min.js'></script>
-    <script src='../easyzoom.js'></script>
+    <script src='../hizoom.js'></script>
     <script>
-        $('.easy1').easyZoom({
+        $('.hi1').hiZoom({
             width: 300,
             position: 'right'
         });
-        $('.easy2').easyZoom({
+        $('.hi2').hiZoom({
             width: 400,
             position: 'left'
         });

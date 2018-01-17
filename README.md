@@ -1,6 +1,6 @@
 # HiZoom
 
-> EasyZoom: A concise, easily, lightly (3KB) magnifier plugin of jQuery.
+> hiZoom: A concise, easily, lightly (3KB) magnifier plugin of jQuery.
 
 
 
@@ -30,29 +30,29 @@
 
 ```shell
 // download project
-git clone https://github.com/javashop/EasyZoom.git
+git clone https://github.com/javashop/HiZoom.git
 ```
 
 
 
 ```Html
 <!-- other code ... -->
-<link rel='stylesheet' href='./easyzoom.min.css'>
+<link rel='stylesheet' href='./hizoom.min.css'>
 
-<div class='easyzoom gakki'>
+<div class='hizoom gakki'>
   <img src='./gakki.png'>
 </div>
-<div class='easyzoom ldy'>
+<div class='hizoom ldy'>
   <img src='./ldy.png'>
 </div>
 
 <script>
   // Call the plugin
-  $('.gakki').easyZoom({
+  $('.gakki').hiZoom({
     width: 400,
     position: 'right'
   });
-  $('.ldy').easyZoom({
+  $('.ldy').hiZoom({
     width: 300,
     position: 'left'
   });

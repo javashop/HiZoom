@@ -1,6 +1,6 @@
 # HiZoom
 
-> EasyZoom: 一个简单，易用，轻量（3KB）的jQuery放大镜插件。
+> hiZoom: 一个简单，易用，轻量（3KB）的jQuery放大镜插件。
 
 
 
@@ -30,29 +30,29 @@
 
 ```shell
 // 下载项目
-git clone https://github.com/javashop/EasyZoom.git
+git clone https://github.com/javashop/HiZoom.git
 ```
 
 在项目中直接引入
 
 ```Html
 <!-- 其余代码省略... -->
-<link rel='stylesheet' href='./easyzoom.min.css'>
+<link rel='stylesheet' href='./hizoom.min.css'>
 
-<div class='easyzoom gakki'>
+<div class='hizoom gakki'>
   <img src='./gakki.png'>
 </div>
-<div class='easyzoom ldy'>
+<div class='hizoom ldy'>
   <img src='./ldy.png'>
 </div>
 
 <script>
   // 调用
-  $('.gakki').easyZoom({
+  $('.gakki').hiZoom({
     width: 400,
     position: 'right'
   });
-  $('.ldy').easyZoom({
+  $('.ldy').hiZoom({
     width: 300,
     position: 'left'
   });
