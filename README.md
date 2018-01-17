@@ -1,4 +1,4 @@
-# EasyZoom
+# HiZoom
 
 > EasyZoom: A concise, easily, lightly (3KB) magnifier plugin of jQuery.
 
@@ -11,7 +11,8 @@
 ---
 
 * Concise：document is exhaustive and clearly
-* Lightly : the javascript file that compressed is just 3KB, and is one-twenty two of the other magnifier plugin 
+* Lightly : the javascript file that compressed is just **3KB**, and is **one-twenty two** of MagicZoom plugin 
+* Browser Supported: Chrome, Firefox, Safiri, IE9+
 
 
 
