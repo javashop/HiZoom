@@ -74,4 +74,4 @@ git clone https://github.com/javashop/EasyZoom.git
 
 # Javashop出品
 
-本开源产品源自优质网店系统供应商：Javashop（http://www.javamall.com.cn）
+本开源产品源自优质网店系统供应商：Javashop（ http://www.javamall.com.cn ）
