@@ -1,6 +1,6 @@
 # HiZoom
 
-> hiZoom: A concise, easily, lightly (3KB) magnifier plugin of jQuery.
+> HiZoom: A concise, easily, lightly (3KB) magnifier plugin of jQuery.
 
 
 
