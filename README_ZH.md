@@ -1,6 +1,6 @@
 # HiZoom
 
-> EasyZoom: 一个简单，易用，轻量（3KB）的jQuery放大镜插件。
+> HiZoom: 一个简单，易用，轻量（3KB）的jQuery放大镜插件。
 
 
 
