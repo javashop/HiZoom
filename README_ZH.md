@@ -73,6 +73,18 @@ git clone https://github.com/javashop/HiZoom.git
 | opacity    | 放大镜透明度                | 0~1（合法CSS值）              | 0.7   |
 | distance   | 被放大区域和放大镜容器间的距离       | 任何正数                     | 20    |
 
+
+
+#### 待完成
+
+---
+
+* 处理长方形图片放大
+* 自定义放大倍数
+*  . . . 
+
+
+
 # Javashop出品
 
 本开源产品源自优质网店系统供应商：Javashop（ http://www.javamall.com.cn ）

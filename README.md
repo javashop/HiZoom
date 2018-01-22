@@ -73,6 +73,18 @@ git clone https://github.com/javashop/HiZoom.git
 | opacity    | opacity of magnifier                     | 0~1（legal CSS value）     | 0.7     |
 | distance   | distance between zoom area and magnifier container | A positive number        | 20      |
 
+
+
+#### TODO
+
+---
+
+* Deal the rectangle image
+* Set the magnification by yourself
+* . . .
+
+
+
 # From
 
 From Javashop ( http://www.javamall.com.cn )
